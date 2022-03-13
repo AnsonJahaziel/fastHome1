@@ -1,28 +1,30 @@
 ion-tab-bar {
-    --border: 0;
+  --border: 0;
+  --background: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 14px;
+  margin-left: 5%;
+  margin-bottom: 10px;
+  width: 90%;
+  &:after {
     --background: transparent;
-    position: absolute;
+    content: " ";
+    width: 100%;
     bottom: 0;
-    left:0; right: 0;
-    border-radius: 14px;
-    margin-left: 5%;
-    margin-bottom: 10px;
-    width: 90%;
-    &:after{
-        content: " ";
-        width: 100%;
-        bottom: 0;
-        background: var(--ion-color-light);
-        height: env(safe-area-inset-bottom);
-        position: absolute;
-    }
+    background: #fff;
+    height: env(safe-area-inset-bottom);
+    position: absolute;
+  }
 }
 ion-tab-button {
-    --background: var(--ion-color-light);
+  --background: #fff;
+  border-radius: 14px;
 }
 
-
-ion-label{
-    font-family: SourceSansPro !important;
-    font-size: 15px;
+ion-label {
+  font-family: SourceSansPro !important;
+  font-size: 15px;
 }

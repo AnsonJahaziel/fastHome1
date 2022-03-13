@@ -1,8 +1,33 @@
+ion-content {
+  --background: #e0dfe6;
+
+  font-family: SourceSansPro !important;
+
+  #header {
+    height: 8%;
+    background: #335c67;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 5%;
+
+    }
+  }
+}
+
 ion-title {
   color: #444;
   font-family: SourceSansPro !important;
   font-weight: bolder;
   font-size: 25px;
+  align-content: center;
   letter-spacing: 1.5px;
 }
 

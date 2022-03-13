@@ -1,11 +1,101 @@
-ion-title {
-  color: #444;
-  font-family: SourceSansPro !important;
-  font-weight: bolder;
-  font-size: 25px;
-  letter-spacing: 1.5px;
-}
+// ion-title {
+//   color: #444;
+//   font-family: SourceSansPro !important;
+//   font-weight: bolder;
+//   font-size: 25px;
+//   letter-spacing: 1.5px;
+// }
 
-ion-toolbar {
-  --min-height: 42px !important;
+// ion-toolbar {
+//   --min-height: 42px !important;
+// }
+
+ion-content {
+  --background: #e0dfe6;
+  font-family: SourceSansPro !important;
+
+  #header {
+    height: 30%;
+    background: #335c67;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    #app-bar {
+      height: 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      #logo {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        align-self: center;
+
+        ion-icon {
+          font-size: 40px;
+          margin-left: -5px;
+        }
+      }
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 5px;
+    }
+    p {
+      font-size: 15px;
+      line-height: 1.4;
+    }
+  }
+
+  .wrapper {
+    position: absolute;
+    top: 26%;
+    left: 4%;
+    right: 4%;
+
+    .form-wrapper {
+      box-shadow: none;
+      border-radius: 20px;
+      padding: 15px 10px;
+
+      ion-item {
+        --background: #efefef;
+        --padding-start: 10px;
+        --highlight-height: 0;
+        --border-width: 0;
+        --padding-top: 0;
+        --min-height: 40px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+
+        ion-icon {
+          font-size: 18px;
+        }
+
+        ion-input {
+          margin-left: 10px;
+          font-size: 14px;
+        }
+      }
+
+      ion-button {
+        height: 40px;
+        --box-shadow: none;
+        text-transform: initial;
+        font-size: 16px;
+        letter-spacing: 0;
+        font-weight: 400;
+        margin-top: 25px;
+      }
+    }
+  }
 }
