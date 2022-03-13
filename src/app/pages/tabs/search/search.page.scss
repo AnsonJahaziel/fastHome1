@@ -1,44 +1,23 @@
-// ion-title {
-//     color: #444;
-//     font-family: SourceSansPro !important;
-//     font-weight: bolder;
-//     font-size: 25px;
-//     letter-spacing: 1.5px;
-//   }
+ion-title {
+    color: #444;
+    font-family: SourceSansPro !important;
+    font-weight: bolder;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+  }
 
-//   ion-toolbar {
-//     --min-height: 42px !important;
-//   }
+  ion-toolbar {
+    --min-height: 42px !important;
+  }
 
 ion-content {
   --background: #e0dfe6;
   font-family: SourceSansPro !important;
 
-  #header {
-    height: 15%;
-    background: #335c67;
-    border-radius: 0 0 20px 20px;
-    display: flex;
-    flex-direction: column;
-    color: #fff;
-    padding-left: 20px;
-    padding-right: 20px;
-
-
-    h1 {
-      font-size: 36px;
-      margin-bottom: 5px;
-    }
-    p {
-      font-size: 15px;
-      line-height: 1.4;
-    }
-
-    ion-searchbar {
-      --border-radius: 20px;
-      --background: #fff;
-      margin-bottom: 5px;
-    }
+  ion-searchbar {
+    --border-radius: 20px;
+    --background: #fff;
+    margin-top: 10px;
   }
 
   ion-card {
